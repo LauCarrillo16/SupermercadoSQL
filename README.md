@@ -81,5 +81,6 @@ Base de datos en MySQL ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?st
 
 Laura Carrillo - Tecnologa en Desarrollo de Sistemas Informaticos
 | @cordilauoficial |  ![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)
+
 Felipe Velandia - Camper
 | @velandia____ | ![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)
