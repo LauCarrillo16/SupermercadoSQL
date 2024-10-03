@@ -68,7 +68,7 @@ Un README.md detallado.
 # Diagrama E-R
 
 Diagramado de la Base de Datos.. 📋
-
+![alt Diagrama BAse de datos supermercados](image.png)
 
 # Lenguaje
 
