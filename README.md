@@ -11,12 +11,13 @@ Base de datos para una cadena nacional de supermercados
 
 
 
-# Descripcion
+# Descripcion 📖
 Una cadena de supermercados necesita un sistema de gestión que le permita controlar de manera eficiente sus operaciones diarias. 
 El sistema debe manejar información sobre los productos que ofrece, las ventas que realiza, el inventario en cada sucursal, los empleados, 
-los proveedores y las promociones. Se busca optimizar la gestión de información y facilitar el acceso a datos mediante consultas SQL.
+los proveedores y las promociones.
+ Se busca optimizar la gestión de información y facilitar el acceso a datos mediante consultas SQL.
 
-# Requerimientos Funcionales
+# Requerimientos Funcionales ⚙️⚙️
 - Gestión de Productos:
 Almacenar información sobre cada producto que ofrece la cadena, como nombre, precio, stock, y categoría.
 Relacionar los productos con sus proveedores y las promociones vigentes.
@@ -40,7 +41,7 @@ Almacenar promociones y descuentos que aplican a ciertos productos durante perí
 Registrar y gestionar los pedidos realizados a proveedores para mantener el inventario abastecido.
 
 
-# Requerimientos Tecnicos
+# Requerimientos Tecnicos 🛠️🛠️
 - Base de Datos Relacional:
 Crear una base de datos en MySQL con al menos 10 entidades principales (tablas) que representen las áreas funcionales descritas.
 Cada entidad debe tener al menos 20 registros.
@@ -65,6 +66,8 @@ Un README.md detallado.
 
 
 # Diagrama E-R
+
+Diagramado de la Base de Datos.. 📋
 
 
 # Lenguaje
