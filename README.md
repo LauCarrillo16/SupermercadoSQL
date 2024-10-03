@@ -78,7 +78,7 @@ Diagramado de la Base de Datos.. 📋
 # Lenguaje
 
 Base de datos en MySQL ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
->[!note-DDL]
+>[!note]
 >Se utilizaron DDL para la creacion  en la creacion de las tablas de la base de datos *supermercado*.
 
 CREATE DATABASE IF NOT EXISTS supermercado;
