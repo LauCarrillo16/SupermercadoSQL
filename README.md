@@ -73,7 +73,7 @@ Un README.md detallado.
 # Diagrama E-R
 
 Diagramado de la Base de Datos.. 📋
-![alt Diagrama BAse de datos supermercados](image.png)
+![alt text](image-2.png)
 
 # Lenguaje
 
@@ -150,9 +150,9 @@ CREATE TABLE IF NOT EXISTS EMPLEADO (
     FOREIGN KEY (ID_Sucursal) REFERENCES SUCURSAL(Id_Sucursal)
 );
 
-CREATE TABLE IF NOT EXISTS VENTA (
-    ID_venta INTEGER PRIMARY KEY AUTO_INCREMENT,
-    Fecha_Venta DATETIME NOT NULL,
+CREATE TABLE IF NOT EXISTS FACTURA (
+    ID_Factura INTEGER PRIMARY KEY AUTO_INCREMENT,
+    Fecha_Factura DATETIME NOT NULL,
     ID_Pago INTEGER NOT NULL,
     ID_Sucursal INTEGER NOT NULL,
     ID_Cliente INTEGER NOT NULL,
@@ -202,15 +202,14 @@ CREATE TABLE IF NOT EXISTS Pedido_Proveedor (
     FOREIGN KEY (ID_Sucursal) REFERENCES SUCURSAL(Id_Sucursal)
 );
 
-CREATE TABLE IF NOT EXISTS FACTURA_CLIENTE (
-    ID_Detalle_Factura INTEGER PRIMARY KEY AUTO_INCREMENT,
+CREATE TABLE IF NOT EXISTS VENTA_PRODUCTO (
+    ID_Venta_Producto INTEGER PRIMARY KEY AUTO_INCREMENT,
     Cantidad INTEGER NOT NULL,
-    ID_Venta INTEGER NOT NULL,
+    ID_Factura INTEGER NOT NULL,
     ID_Producto INTEGER NOT NULL,
-    FOREIGN KEY (ID_Venta) REFERENCES VENTA(ID_venta),
+    FOREIGN KEY (ID_Factura) REFERENCES FACTURA(ID_Factura),
     FOREIGN KEY (ID_Producto) REFERENCES PRODUCTO(Id_producto)
 );
-
 
 
 
