@@ -212,7 +212,6 @@ CREATE TABLE IF NOT EXISTS VENTA_PRODUCTO (
 );
 
 
-
 # Uso
 
 > [!important]
