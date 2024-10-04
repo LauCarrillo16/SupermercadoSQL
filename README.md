@@ -212,8 +212,6 @@ CREATE TABLE IF NOT EXISTS FACTURA_CLIENTE (
 );
 
 
-
-
 # Uso
 
 > [!important]
